@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        color: white;
+      }
+
+      /* div tiene por defecto un display: block (es decir, un elemento por encima del otro). */
+      .div-1,
+      .div-2 {
+        background-color: royalblue;
+        /* display: block;  propiedad por defecto de los divs.*/
+      }
+
+      .span-1,
+      .span-2 {
+        background-color: brown;
+        font-weight: bold;
+        font-size: 30px;
+        /* display: inline; propiedad por defecto de los span. Con "inline", no es posible poner height o width. 
+    Ésto se haría con inline-block */
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        padding: 30px;
+      }
+
+            /*
+        Display: 
+        - block (uno encima de otro)
+        - inline (en una sola línea y no acepta height y width)
+        - inline-block (en una sola línea pero que acepte height y width).
+        */
+
+      .span-3 {
+        background-color: blueviolet;
+        height: 100px;
+        width: 100px;
+        padding: 30px;
+        
+        /* float: left; */
+        /*Los elementos inline pueden tener float, que es una forma de posicionamiento para elementos inline.*/
+      }
+
+      .div-3 {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: burlywood;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div-1">Este es mi Div 1</div>
+
+    <span class="span-1">Span 1</span>
+    <span class="span-2">Span 2</span>
+    <span class="span-3">Span 3</span>
+
+    <div class="div-2">Este es mi Div 2</div>
+
+    <div class="div-3">Div 3</div>
+
+    <div class="div-3">Div 3</div>
+  </body>
+</html>

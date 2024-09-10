@@ -1,0 +1,10 @@
+.btn {
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    background-color: cadetblue;
+    border: 3px solid white;
+    margin: 10px;
+}

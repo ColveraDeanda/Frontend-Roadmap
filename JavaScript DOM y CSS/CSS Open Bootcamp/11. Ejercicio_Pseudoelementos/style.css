@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    margin: 20px 10px;
+    padding: 15px;
+}
+
+.btn-primary::after {
+    content: "Pasa por encima";
+}
+
+.btn-primary:hover {
+    color: #FFF;
+    background-color: green;
+    cursor: pointer;
+}
+
+.btn-primary:hover::after {
+    content: "Hecho!";
+}

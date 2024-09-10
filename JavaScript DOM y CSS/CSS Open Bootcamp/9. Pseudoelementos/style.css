@@ -1,0 +1,40 @@
+.contenedor {
+    width: 300px;
+    background-color: cadetblue;
+}
+
+/*
+Los pseudo-elementos en CSS son un mecanismo para acceder a partes del HTML que no tienen asociado un nodo en el DOM
+*/
+
+span.frase {
+    font-style: italic;
+}
+
+span.frase::before {  /* Se puede insertar contenido antes del elemento seleccionado. */
+    content: '<< ';
+    font-size: xx-small;
+}
+
+span.frase::after { /* Se puede insertar contenido despues del elemento seleccionado. */
+    content: ' >>';
+    font-size: xx-small;
+}
+
+.libro p::first-letter {
+    font-size: xx-large;
+}
+
+.libro p::first-line {
+    background-color: blue;
+}
+
+.libro p::selection { /* Puedes modificar cuando el user selecciona texto */
+    background-color: rgb(179, 136, 56);
+    color: lime;
+}
+
+.listado ul li::marker { /* selects the marker box of a list item */
+    color: red;
+}
+

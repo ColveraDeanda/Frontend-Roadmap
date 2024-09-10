@@ -1,0 +1,21 @@
+<div class="place">
+  @for (place of places; track place.id) {
+  <!-- <div class="image" [ngStyle]="{ backgroundImage: 'url('+place.image+')' }"></div> -->
+  <div class="info">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>{{place.name}}</mat-card-title>
+        <mat-card-subtitle>{{place.description}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Coordenadas: {{place.latitude}} / {{place.longitude}}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="warn" (click)="onClickDelete(place)">Delete</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  } @empty {
+  Empty list of users
+  }
+</div>

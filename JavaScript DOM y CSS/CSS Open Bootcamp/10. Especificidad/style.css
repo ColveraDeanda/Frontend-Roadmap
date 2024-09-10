@@ -1,0 +1,22 @@
+/* - Cuando le agregamos estilos a un elemento, éste tendrá cierto nivel de especificidad.
+   - Dependiendo el nivel de especificidad que se tenga, se le agregarán esos estilos.
+   - Se puede llegar al nivel máximo de especificidad con !important o agregando estilos inline desde HTML con style. 
+   - Si dos elementos tienen la misma especificidad, se agregará el estilo que esté más abajo en el archivo. 
+   - Evitar a toda costa el uso de !important*/
+
+
+h1#h1-id.h1-class.h1-class2 {
+    color: darksalmon;
+}
+
+.h1-class {
+    color: yellow;
+}
+
+h1 {
+    color: blue !important;
+}
+
+p {
+    color: red;
+}

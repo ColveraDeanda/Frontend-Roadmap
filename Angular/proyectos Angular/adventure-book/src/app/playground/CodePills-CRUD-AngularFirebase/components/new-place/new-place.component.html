@@ -1,0 +1,32 @@
+<form class="example-form" [formGroup]="formulario" (ngSubmit)="onSubmit()">
+  <mat-form-field class="example-full-width">
+    <mat-label>Name</mat-label>
+    <input type="text" matInput value="Name" class="form-control"
+           formControlName="name">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Description</mat-label>
+    <textarea matInput cols="30" rows="3" formControlName="description"></textarea>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Latitude</mat-label>
+    <input type="number" matInput formControlName="latitude">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Longitude</mat-label>
+    <input type="number" matInput formControlName="longitude">
+  </mat-form-field>
+
+  <div class="mb-3">
+      <label class="form-label">Image</label>
+      <input type="text" class="form-control" formControlName="image">
+  </div>
+  <button type="submit" mat-raised-button color="primary"
+          class="btn btn-info"> Submit
+  </button>
+
+  <button (click)="resetForm()" mat-raised-button color="accent">Reset</button>
+</form>

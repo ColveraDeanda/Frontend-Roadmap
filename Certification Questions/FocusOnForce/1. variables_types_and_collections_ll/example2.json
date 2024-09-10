@@ -1,0 +1,16 @@
+{
+    "name": "White T-shirt",
+    "price": 5.99,
+    "inventory": [
+        {
+            "size": "M",
+            "quantity": 150
+        },
+        {
+            "size": "L",
+            "quantity": 100
+        }
+    ],
+    "returnable": true,
+    "customization": null
+}

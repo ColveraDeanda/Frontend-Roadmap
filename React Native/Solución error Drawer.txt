@@ -1,0 +1,13 @@
+1. Desinstalar react-native-reanimated: npm uninstall react-native-reanimated
+2. instalar versión correcta: npm install react-native-reanimated@2.14.x.
+3. Agregar en Babel.config.js el plugin y debe quedar de la siguiente manera:
+module.exports = {
+  presets: ['module:metro-react-native-babel-preset'],
+  plugins: [
+    'react-native-reanimated/plugin',
+        ],
+};
+4. Limpiar el cache: npm start -- --reset-cache
+5. Utilizar la opción 'r' en el menú dentro de metro para dar reload.
+6. Usar la opción 'a' para ejecutarlo en Android.
+

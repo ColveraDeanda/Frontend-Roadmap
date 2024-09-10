@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "adventure-storybook"
+  },
+  "targets": {
+    "adventure-storybook": {
+      "hosting": {
+        "adventure-book": [
+          "adventure-storybook"
+        ]
+      }
+    }
+  }
+}

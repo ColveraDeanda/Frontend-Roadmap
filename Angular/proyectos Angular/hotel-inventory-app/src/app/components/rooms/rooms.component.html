@@ -1,0 +1,9 @@
+<p>Interpolación: {{ roomName }}</p>
+
+<!-- Se puede bindear cualquier propiedad válida de HTML con alguna variable o método en nuestro TS -->
+<p [innerText]="roomsAvailable"></p>
+<p [ngStyle]="{'color': colorBlue, 'font-weight': fontWeight}">Usando ngStyle desde TS</p>
+<p [ngClass]="getFontSize()">Usando ngClass</p>
+
+<p [style]="colorViolet">usando [style]</p>
+<p [class]="getFontSize()">usando [class]</p>

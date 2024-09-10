@@ -1,0 +1,45 @@
+TypeScript:
+- Generics = Funciones resusables que permitan cualquier tipo de dato.
+- Tuplas = Arreglos con tipo de dato definido para cada elemento.
+- Parámetro opcionales usando "?".
+- Enum = Se podría decir que son constantes almacenadas en un objeto.
+
+Clases:
+- Se puede definir una propiedad privada con "#".
+- Las propiedades y métodos ya son public por defecto.
+- Recordar que se pueden definir tambien get y set para las propiedades de la clase.
+
+Interfaces:
+- Se puede tener una propiedad opcional con "?".
+  Ej: interface User {
+	name: string;
+	age?: number;
+	email: string
+      }
+
+Introduction to Mono-Repo = Es la capacidad de tener multiples proyectos en el mismo workspace / repo.
+
+
+*** Angular ***
+En app.module. en declarations tienen que darse de alta los = componentes, directivas y pipes. 
+
+
+*** Questions ***
+Why you create Frontend Application: To display data to the end user.
+
+
+
+
+
+primero se modifica devSite (archivo yaml).
+
+
+
+
+
+
+
+
+
+
+

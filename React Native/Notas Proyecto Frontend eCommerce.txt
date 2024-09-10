@@ -1,0 +1,38 @@
+App tipo amazon.
+
+- Home Page: Info de productos.
+- Detalle producto: product detail page (galeria, precio, titulo, subtitulo, descripcion, colores, productos relacionados, descripcion detallada, video si es que aplica, comentarios, calificación)
+- Busqueda: busqueda productos, productos alternativos. lista productos, paginación, categorias relacionadas.
+- carrito: Agregar productos al carrito, lista de productos.
+- checkout: proceso de venta, (converción de carrito a orden). Validaciones para asegurar una orden. 
+- Log in: guest (sesión temporal) y log in de usuario.
+
+- backOffice: pantalla para agente y personalización de opciones (inventario, descuentos, publicación de productos...). Aquí se agrega la info para el usuario.
+  Dashborad : con productosy demás cosas
+
+
+// Usar info dummy y luego se verá la BD.
+// Se puede hacer diseño lo mejor posible.
+
+// En web se tiene que ver super ancha pero que no se descomponga.
+
+// Material UI
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Nada harcodeado.. utilizar un JSON para mostrar los productos.
+
+- Pensar en que tiene que ser mantenible y dinámico.
+
+- El modo portrait va a estar bloqueado
+--------------------------------------------------
+Usar paleta de colores Deloitte: Negro | Verde.. diferentes tonos.
+
+Lunes 13 se checan los avances..
+
+Hacer Banner = Tomar en cuenta el escenario dónde el usuario esté logeado para que en ese caso se muestre la info con data Dummy.
+
+- Al parecer se usará Bootstrap.
+
+
+

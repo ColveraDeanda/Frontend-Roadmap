@@ -1,0 +1,41 @@
+.container-hidden {
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: hidden; /* Todo lo que se desborde, se ocultará. */
+}
+
+.container-scroll {
+    margin: 10px 0px;
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: scroll; /* Se ponen todos los scrolls (eje x,y). */
+  /* overflow-x: hidden;
+    overflow-y: scroll; */
+}
+
+.container-visible {
+    margin: 10px 0px;
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: visible; /* Valor por defecto */
+}
+
+.container-auto {
+    margin: 200px 0px;
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: auto; /*Pone las barras de scroll solo donde es necesario */
+}
+

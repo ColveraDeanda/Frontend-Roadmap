@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+ Las pseudoclases nos permiten seleccionar elementos. Por ejemplo: :first-child, :last-child, :nth-child().
+ Otras pseudoclases se aplican cuando el usuario interactua con los elementos. Por ejem: :hover, :visited, :active 
+*/
+
+.container {
+    padding: 30px;
+    height: 130px;
+    width: 300px;
+    background-color: burlywood;
+    overflow: auto;
+}
+
+.container:hover {
+    background-color: black;
+}
+
+.list {
+    margin: 20px 0px;
+}
+
+.list p:first-child {
+    color: blue;
+}
+
+a:link { /* Aplica a los links no visitados */
+    color: pink;
+}
+
+a:visited {
+    color: chocolate;
+}
+
+a:active { /* Se aplica cuando se le da click mientras está activo */
+    color: blueviolet;
+}
+
+.enlaces p:focus {
+    background-color: aqua;
+}

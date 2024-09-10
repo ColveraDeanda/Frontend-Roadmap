@@ -1,0 +1,20 @@
+Pasos en la pagina de fireBase:
+1: Crear proyecto.
+2: Dar de alta los servicios de Auth:
+  selecciona correo electronico > habilitar la opcion de arriba > Agregar.
+  seleccionar google > Habilitar y seleccionar correo > Guardar
+
+// Dentro de nuestro proyecto Angular:
+1. firebase login 
+2. ng add @angular/fire
+3. y
+4. quitar ng deploy seleccionado y poner authentification
+5. seleccionar cuenta para loggearse
+6. Seleccionar proyecto
+7. Crear app dentro de firebase
+8. Poner nombre de la app de Firebase: web-app
+
+* Se actualizaran los app.config con la configuracion que necesitamos.
+
+
+

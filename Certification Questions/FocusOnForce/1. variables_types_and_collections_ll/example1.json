@@ -1,0 +1,16 @@
+{
+    "profile": {
+        "firstName": "Melvin",
+        "lastName": "Lee",
+        "age": 37,
+        "smoker": false,
+        "children": null
+    },
+    "address": {
+        "streetNumber": 37,
+        "streetName": "Manoth",
+        "city": "Malboro",
+        "state": "New Jersey",
+        "country": "USA"
+    }
+}

@@ -1,0 +1,58 @@
+Para que usar RxJS = Para tener la informacion en tiempo real.
+
+Cuando usar Rxjs:
+ - Cuando se realizan eventos en la interface de usuario.
+ - Cuando es necesario notificar sobre cambios en los objetos.
+ - Comunicaciones por sockets.. ? 
+ - Cuando necesitamos trabajar con flujos de informacion (Streams).
+
+Conceptos fundamtales de Rxjs = Obervables, Suscribers y Operators.
+
+Obervables: 
+- Son la fuente de informacion.
+- Pueden emitir 1 o multiples valores.
+- Pueden emitir errores.
+- Pueden ser infinitos o finitos.
+- Pueden ser Sincronos o asincronos.
+
+Suscribers: 
+- Se suscriben a un obervable, es decir, estan pendientes de lo que realiza el observable.
+- Consume / Oberva la data de un obervable.
+- Pueden recibir errores o eventos del observable.
+
+Operators:
+- Usados para transformar obervables (map, group, scan...).
+- Usados para filtrar obervables (filter, distinct, skip, debounce...)
+- Usados para combinar observables.
+- Usados para crear nuevos obervables.
+
+Beneficios de la programacion reactiva:
+- Evitar el call back hell.
+- Trabajar de manera simple tareas sincronas y asincronas.
+- Uso de operadores para simplificar el trabajo.
+- Es facil transformar los flujos de informacion (Streams).
+
+Patron Observer: De manera sencilla es notificar cuando suceden cambios.
+Es un patron de dise;o que define una dependencia del tipo uno a muchos entre objetos, de manera que cuando
+uno de los objetos cambia su estado, notifica este cambio a todos sus dependientes.
+
+Patron Iterador: Es poder ejecutar operaciones secuanciales.
+
+Programacion funcional: Tener funciones con tareas específicas que reciban argumentos y no muten la información.
+
+
+---------------------------------
+Investigar que es WebPack y Sockets.. son cosas que he visto pero nunca entendido como tal.
+
+
+
+
+
+
+
+
+
+
+
+
+

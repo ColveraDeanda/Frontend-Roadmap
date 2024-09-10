@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .imagen-principal {
+        width: 100vw; /* Ocupará todo el ancho */
+        opacity: 0.3;
+      }
+
+      .imagen-principal:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+
+      .galeria {
+        display: flex;
+        flex-wrap: wrap; /* Elements will be moved to the next line if there is no enough space */
+        gap: 10px; /* Espacio entre cada elemento */
+      }
+
+      .imagen-galeria {
+        width: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="imagen-principal" src="img/post-img.jpg" alt="Programming" />
+
+    <div class="galeria">
+      <img class="imagen-galeria" src="img/challenges.jpg" alt="imagen1" />
+      <img class="imagen-galeria" src="img/related-1.jpg" alt="imagen2" />
+      <img class="imagen-galeria" src="img/related-2.jpg" alt="imagen3" />
+      <img class="imagen-galeria" src="img/related-3.jpg" alt="imagen4" />
+      <img class="imagen-galeria" src="img/challenges.jpg" alt="imagen5" />
+      <img class="imagen-galeria" src="img/related-1.jpg" alt="imagen6" />
+    </div>
+  </body>
+</html>

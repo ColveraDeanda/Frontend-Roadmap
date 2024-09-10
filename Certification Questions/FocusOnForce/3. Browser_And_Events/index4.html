@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>Value: <span id="value">0</span></p>
+    <button id="add" type="button" onclick="handleClick(event)">Add</button>
+
+    <h4>Data from Fetch API:</h4>
+    <div id="data"></div>
+
+    <button onclick="getLocation()">Get location</button>
+    <div id="location"></div>
+
+    <h1>History API Simulation</h1>
+    <p>
+        Click Page 1 to push it to the history stack. The Browser Back Button will be enabled. You will see '?page=1' on
+        the url text box.
+        <button id='page1' onclick='push({page: 1}, "Page 1", "?page=1")'>Page 1</button>
+    </p>
+    <p>
+        Click Page 2 to push it to the history stack. The Browser Back Button will be enabled. You will see '?page=2' on
+        the url text box.
+        <button id='page2' onclick='push({page: 2}, "Page 2", "?page=2")'>Page 2</button>
+    </p>
+    <p>
+        Click this button to replace the top of the history stack with Page 3. You will see '?page=3' on the url text
+        box. Click the browser's BACK Button and then the FORWARD button and you will see this page as the new location.
+        <button id='replace' onclick="replace()">Page 3</button>
+    </p>
+    <p>
+        Click this button or the browser's BACK button to go back a page.
+        <button id='backward' onclick="backward()" style="enabled: false;">BACKWARD</button>
+    </p>
+    <p>
+        Click this button or the browser's FORWARD button to go forward a page.
+        <button id='forward' onclick="forward()">FORWARD</button>
+    </p>
+    <div id="message"></div>
+
+    <canvas id="myCanvas" width="300" height="300"></canvas>
+
+    <hr>
+
+    <div id="urldiv"></div>
+
+    <script src="index4.js"></script>
+</body>
+
+</html>

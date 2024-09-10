@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*El eje principal de flex es X. Cuando se usa position flex, los elementos se organizarán de manera organizada */
+.flex {
+    display: flex;
+    flex-direction: row; /*Por defecto será row.*/
+    justify-content: space-around; /* start, end, space-between... etc  */
+    flex-wrap: nowrap; /* flex-wrap: Definimos si los elementos se pueden rezising o no. 
+                        por defecto es nowrap. Si se pone en wrap, los elementos se pondrán abajo para asegurar que no cambie su tamaño */
+    height: 700px;
+    background-color: blueviolet;
+    align-items: flex-end; /* align items: Por defecto tiene stretch. Acomodar los elementos del eje Y. */
+}
+
+.contenido-1 {
+    border: 2px solid black;
+    background-color: bisque;
+    padding: 25px;
+    
+}
+
+.contenido-2 {
+    border: 2px solid black;
+    background-color: bisque;
+    padding: 25px;
+}
+
+.contenido-3 {
+    border: 2px solid black;
+    padding: 25px;
+    background-color: bisque;
+    
+}

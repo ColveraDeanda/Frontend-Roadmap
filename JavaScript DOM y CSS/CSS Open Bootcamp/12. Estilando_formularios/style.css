@@ -1,0 +1,70 @@
+.input {
+    width: 95%;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input[type="password"] {
+    color: red;
+}
+
+.input-moderno {
+    border: none;
+    border-bottom: 1 px solid gray;
+    outline: none; /* Le quita los bordes cuando se hace focus al input */
+    padding: 5px;
+    color: aquamarine;
+}
+
+.input-moderno::placeholder { /* ::placeholder, accedes al placeholder y se puede customizar */
+    color: beige;
+}
+
+.input-moderno:focus {
+    border-bottom: 1px solid black;
+}
+
+.input-background {
+    margin: 10px;
+    padding: 5px;
+    color: black;
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #FFF;
+}
+
+.input-background::placeholder {
+    color: black;
+}
+
+.input-search {
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 8px;
+    margin: 10px;
+    background-image: url('img/search.jpg');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 2px;
+}
+
+textarea {
+    resize: vertical; /*Podemos controlar el comportamiento del resizing. "both" por defecto. */
+}
+
+select {
+    width: 50%;
+    padding: 30px;
+    background-color: burlywood;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+.place {
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.place .info {
+  padding: 10px 20px;
+}
+
+.place .image {
+  background-size: cover;
+  background-position: center;
+}

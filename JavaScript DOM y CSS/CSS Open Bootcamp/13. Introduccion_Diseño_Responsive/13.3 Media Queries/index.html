@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+    <style>
+      /* Mientras el viewport tenga un minimo de 600px, se aplicaran los estilos para min-width */
+      @media (min-width: 600px) {
+        body {
+          background-color: brown;
+        }
+      }
+      /* max-width: 600px - Se aplidcaran los estilos siempre que estén debajo de 600px ya que 600px es el máximo. */
+      @media (max-width: 600px) {
+        body {
+          background-color: bisque;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">Hola</div>
+  </body>
+</html>

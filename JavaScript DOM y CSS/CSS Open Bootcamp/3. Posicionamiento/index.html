@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        margin: 10px;
+        padding: 15px;
+        border: 3px solid black;
+      }
+
+      /* Relative: It is positioned in relation to the original positioning. */
+      .relative {
+        position: relative;
+        left: 50%;
+        margin-bottom: 50px;
+      }
+
+      /* Fixed: It is positioned in relation to the screen */
+      .fixed {
+        position: fixed;
+        bottom: 20px;
+        background-color: brown;
+        color: white;
+        border-radius: 30px;
+        width: 300px;
+        text-align: center;
+      }
+
+      .container {
+        position: relative;
+        height: 800px;
+      }
+
+      /* Absoulte: It is positioned in relation to its parent element. (Si es que se quiere posicionar en relación a un contenedor, 
+         el contenedor deberá tener una position: relative)*/
+      .absolute {
+        position: absolute;
+        left: 18%;
+        top: 0%;
+        margin-bottom: 30px;
+      }
+
+      /* Al hacer scroll modifica su posicionamiento.  */
+      .sticky {
+        position: sticky;
+        top: 15px;
+        background-color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Posicionamiento CSS</h3>
+
+    <!-- Static es la posicion por defecto -->
+    <div class="static">Simple div static</div> 
+    
+    <div class="relative">Soy un div relativo (relative)</div>
+    <div class="fixed">Soy un div fixed</div>
+
+    <div class="sticky">Este es un div sticky</div>
+
+    <div class="container">
+      <div class="absolute">
+        Soy un div absolute dentro de un contenedor con position: relative
+      </div>
+    </div>
+
+    <div class="absolute">
+      Soy un div absolute sin ningún contenedor relativo
+    </div>
+  </body>
+</html>
